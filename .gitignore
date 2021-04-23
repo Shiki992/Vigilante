@@ -44,3 +44,43 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Google services
+{
+  "project_info": {
+    "project_number": "30447831487",
+    "project_id": "coldaid",
+    "storage_bucket": "coldaid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30447831487:android:ba38e9bb525494e19af90a",
+        "android_client_info": {
+          "package_name": "com.example.vigilante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30447831487-fmgmf8hh1n9jcch2fu5lr3j822rq8rlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7mNctINg0KYSLCqIKoEp3roAW-WYGaZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30447831487-fmgmf8hh1n9jcch2fu5lr3j822rq8rlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
