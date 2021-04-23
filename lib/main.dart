@@ -46,39 +46,39 @@ class _AppState extends State<App> {
       ],
       builder: (context, child) => MaterialApp(
         title: 'Vigilante',
-        // theme: ThemeData(
-        //     fontFamily: 'Montserrat',
-        //     primarySwatch: Colors.grey,
-        //     accentColor: Color(0xff1aade4),
-        //     appBarTheme:
-        //         AppBarTheme(color: Colors.white, brightness: Brightness.light),
-        //     textTheme: TextTheme(
-        //         headline6: TextStyle(
-        //             fontSize: 34,
-        //             fontWeight: FontWeight.bold,
-        //             color: Colors.black),
-        //         headline5: TextStyle(fontSize: 34, color: Colors.black),
-        //         headline4: TextStyle(
-        //             fontSize: 28,
-        //             fontWeight: FontWeight.bold,
-        //             color: Colors.black),
-        //         headline3: TextStyle(fontSize: 28, color: Colors.black),
-        //         headline2: TextStyle(fontSize: 22, color: Colors.black),
-        //         headline1: TextStyle(
-        //             fontSize: 20,
-        //             fontWeight: FontWeight.normal,
-        //             color: Colors.black),
-        //         bodyText1: TextStyle(
-        //             fontSize: 13,
-        //             fontWeight: FontWeight.normal,
-        //             color: Colors.black),
-        //         bodyText2: TextStyle(
-        //             fontSize: 15,
-        //             fontWeight: FontWeight.normal,
-        //             color: Colors.black),
-        //         subtitle1: TextStyle(fontSize: 17),
-        //         subtitle2: TextStyle(fontSize: 15),
-        //         caption: TextStyle(fontSize: 12))),
+         theme: ThemeData(
+             fontFamily: 'Montserrat',
+             primarySwatch: Colors.grey,
+             accentColor: Color(0xffff000f),
+             appBarTheme:
+                 AppBarTheme(color: Colors.white, brightness: Brightness.light),
+             textTheme: TextTheme(
+                 headline6: TextStyle(
+                     fontSize: 34,
+                     fontWeight: FontWeight.bold,
+                     color: Colors.black),
+                 headline5: TextStyle(fontSize: 34, color: Colors.black),
+                 headline4: TextStyle(
+                     fontSize: 28,
+                     fontWeight: FontWeight.bold,
+                     color: Colors.black),
+                 headline3: TextStyle(fontSize: 28, color: Colors.black),
+                 headline2: TextStyle(fontSize: 22, color: Colors.black),
+                 headline1: TextStyle(
+                     fontSize: 20,
+                     fontWeight: FontWeight.normal,
+                     color: Colors.black),
+                 bodyText1: TextStyle(
+                     fontSize: 13,
+                     fontWeight: FontWeight.normal,
+                     color: Colors.black),
+                 bodyText2: TextStyle(
+                     fontSize: 15,
+                     fontWeight: FontWeight.normal,
+                     color: Colors.black),
+                 subtitle1: TextStyle(fontSize: 17),
+                 subtitle2: TextStyle(fontSize: 15),
+                 caption: TextStyle(fontSize: 12))),
         initialRoute: Routes.root,
         navigatorKey: _routeService.rootNavigatorKey,
         onGenerateRoute: (routeSettings) => Routes.generateRoute(routeSettings),

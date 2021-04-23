@@ -58,6 +58,7 @@ flutter:
   assets:
     - Assets/Images/cold_splash.jpg
     - Assets/Images/404.jpg
+    - Assets/Images/devices.jpg
 
   # fonts:
   #   - family: Schyler
