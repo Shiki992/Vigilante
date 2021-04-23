@@ -3,9 +3,7 @@ import 'UI_Pages/Splash.dart';
 
 class Routes {
   Routes._();
-
   static const root = '/';
-
   static MaterialPageRoute generateRoute(RouteSettings routeSettings,
       {Widget root}) {
     return MaterialPageRoute(
@@ -25,7 +23,7 @@ class Routes {
             centerTitle: true,
             title: Text('Page not Found'),
           ),
-          body: Image(image: AssetImage('Assets/Images/404')),
+          body: Image(image: AssetImage('Assets/Images/404.jpg')),
         ); // TODO: CREATE NOT FOUND PAGE
     }
   }
